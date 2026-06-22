@@ -1,0 +1,5 @@
+sudo make clean
+sudo make SGX_MODE=SIM
+sudo ./app
+
+sudo make clean && sudo make SGX_MODE=SIM
